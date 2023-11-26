@@ -22,10 +22,30 @@ Preparing for a Dynamics 365 migration project involves understanding the techni
 - **Migration Process**: Understand the stages of data migration: Assessment, Planning, Execution, Testing, and Deployment.
   - Assessment
      - Purpose : Undertand system's current data structure, volume, quality and the business processes it supports
-     - Activities
-         - Activities
-  - Another first level item
-
+     - Activities :
+         - Data Realities : Look at and examine the types, structures and complexity of data in the existing system
+         - System Audit : Review a shortlist summary of the current system's capabilities, limitations and customisation
+         - Requirements : Look for an existing requirements specification and traceability matrix.  If no requirements build a view of requirements using MOSCOW method.
+         - Risk : Identify potential risks and challenges in the migration process.  Use a Gantt chart with a view of groups of tasks over weeks to help flush out dependencies and overall realistic timeline.
+         - Stakeholders : Identify a stakeholder list using a RACI matrix
+  - Planning
+     - Purpose : Design a migration plan that outlines approach, resources, timeline and scope of the migration project
+     - Activies : 
+         - Migration Strategy : Decide on the migration approach being Big Bang, Phased or Parallel Run.
+         - Resource Allocation : Allocate necessary resources, including SMEs, Business people, Testers and Reporting specialists as well as Tools and Technology to support these resources
+         - Timeline and Milestones : A detailed project timeline will identify the key milestones
+         - Data Mapping : A map that illustrates how data from the current system will translate to Dynamics 365.   Accompany with a Business Process Modelling Notation diagram (BPMN) where possible.
+         - Data Cleansing Plan : Identify a plan for data cleansing and de-duplication to ensure data quality
+         - Change Management Plan : Prepare a strategy for managing organisational change and how you will configure Lifecycle Services with environments to support this plan
+  - Execution
+     - Purpose : Carry out the migration process based on the plans above
+     - Activies : 
+         - Data Extraction : Execute jobs on a one off manual or automatic recurring schedule to extract data from the existing system.
+         - Data Transformation : Carry out Transformations using the integration method/s ensuring that original data and transformed data is kept in seperate zones for easy comparison
+         - Data Loading : Load transformed data into Dynamics 365
+         - Customisation and Configuration : Apply any necessary customisations or configuratons
+         - Integraton : Setup Integrations for reporting or other systems as required
+         - Reporting : Utilise Reporting to provide multiple layers of visisbility of data completeness and transformation
 - **Tools and Techniques**: Be familiar with tools used for Dynamics 365 data migration (like SQL Server Integration Services, Azure Data Factory, or Dynamics 365 Data Migration Tool).
 - **Data Quality**: Know how to handle data cleaning, deduplication, and validation during migration.
 
