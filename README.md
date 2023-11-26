@@ -17,6 +17,10 @@ Preparing for a Dynamics 365 migration project involves understanding the techni
 
 ### 2. Data Migration Fundamentals
 - **Migration Process**: Understand the stages of data migration: Assessment, Planning, Execution, Testing, and Deployment.
+  - Second level item
+  - Third level item
+  - Another first level item
+
 - **Tools and Techniques**: Be familiar with tools used for Dynamics 365 data migration (like SQL Server Integration Services, Azure Data Factory, or Dynamics 365 Data Migration Tool).
 - **Data Quality**: Know how to handle data cleaning, deduplication, and validation during migration.
 
